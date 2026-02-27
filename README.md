@@ -1,20 +1,97 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Aura Social – Full Stack Social Media Platform
 
-# Run and deploy your AI Studio app
+Aura Social is a full-stack social media application built using the MERN stack with real-time messaging support. The platform allows users to create accounts, share posts, interact through likes and comments, follow other users, and communicate via private messaging.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/b5b7cec7-772b-4f9b-8600-24024cae5f5d
+## 🚀 Features
 
-## Run Locally
+### 🔐 Authentication & Security
+- Secure user signup and login
+- Password hashing using bcrypt
+- JWT-based authentication
+- Protected API routes using middleware
 
-**Prerequisites:**  Node.js
+### 📸 Social Features
+- Create and view posts
+- Like / Unlike functionality
+- Comment system with dynamic updates
+- Follow / Unfollow users
+- User profile navigation
 
+### 🔎 Search
+- Real-time user search
+- Regex-based filtering for usernames and display names
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 💬 Real-Time Messaging
+- Private Direct Messaging
+- WebSocket integration using Socket.io
+- Instant message delivery without page refresh
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React
+- TypeScript
+- Vite
+
+### Backend
+- Node.js
+- Express.js
+- RESTful API architecture
+- Custom authentication middleware
+- JWT (JSON Web Tokens)
+
+### Database
+- MongoDB (Primary)
+- SQLite fallback (development mode)
+
+### Real-Time
+- Socket.io
+
+---
+
+## 🧠 Architecture Highlights
+
+- RESTful API design
+- Middleware-based request authentication
+- Environment-based configuration
+- Real-time event-driven communication
+
+---
+
+## ⚙️ Local Setup
+
+### Prerequisites
+- Node.js (v18+ recommended)
+
+### Installation
+
+1. Clone the repository:
+   git clone https://github.com/YOUR_USERNAME/aura-social.git
+
+2. Install dependencies:
+   npm install
+
+3. Create a `.env` file and add:
+
+   MONGODB_URI=your_mongodb_connection_string
+   JWT_SECRET=your_secret_key
+
+4. Start the development server:
+   npm run dev
+
+---
+
+## 📌 Project Status
+
+Active development. Continuously improving performance and scalability.
+
+---
+
+## 👨‍💻 Author
+
+YOUR NAME  
+MERN Stack Developer

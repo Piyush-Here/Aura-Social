@@ -70,7 +70,7 @@ Aura Social is a full-stack social media application built using the MERN stack 
 ### Installation
 
 1. Clone the repository:
-   git clone https://github.com/YOUR_USERNAME/aura-social.git
+   git clone https://github.com/Piyush-Here/aura-social.git
 
 2. Install dependencies:
    npm install

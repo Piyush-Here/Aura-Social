@@ -1,0 +1,8 @@
+{
+  "name": "Aura Social",
+  "description": "A minimalist, high-performance social media platform focused on visual storytelling and clean interactions.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

@@ -1,0 +1,149 @@
+.postCard {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.postHeader {
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postUser {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.postAvatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.postUsername {
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.postUsername:hover {
+  text-decoration: underline;
+}
+
+.postImageContainer {
+  width: 100%;
+  aspect-ratio: 1/1;
+  background: #eee;
+}
+
+.postImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.postActions {
+  padding: 12px 16px;
+}
+
+.actionBtns {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.actionBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+
+.postLikes {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.postCaption {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.viewCommentsBtn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 14px;
+  padding: 0;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.commentsSection {
+  overflow: hidden;
+  padding-top: 8px;
+}
+
+.commentsList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.commentItem {
+  font-size: 14px;
+  display: flex;
+  gap: 8px;
+}
+
+.commentText {
+  color: var(--text-muted);
+}
+
+.commentForm {
+  display: flex;
+  gap: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
+.commentInput {
+  flex: 1;
+  background: none;
+  border: none;
+  font-size: 14px;
+  padding: 4px 0;
+}
+
+.commentInput:focus {
+  outline: none;
+}
+
+.commentSubmit {
+  background: none;
+  border: none;
+  color: #0095f6;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.postDate {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  margin-top: 8px;
+}

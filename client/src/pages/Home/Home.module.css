@@ -1,0 +1,14 @@
+.homeContainer {
+  padding-bottom: 80px;
+}
+
+.loading {
+  padding: 80px 0;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+}
